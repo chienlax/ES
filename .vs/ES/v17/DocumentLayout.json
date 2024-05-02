@@ -40,10 +40,11 @@
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\Users\\ORLab\\main_source\\ES\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAOAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-02T02:55:39.346Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -61,9 +62,10 @@
               "RelativeDocumentMoniker": "instance.h",
               "ToolTip": "C:\\Users\\ORLab\\main_source\\ES\\instance.h",
               "RelativeToolTip": "instance.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAABkAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-02T07:22:55.117Z"
+              "WhenOpened": "2024-05-02T07:22:55.117Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -73,9 +75,10 @@
               "RelativeDocumentMoniker": "instance.cpp",
               "ToolTip": "C:\\Users\\ORLab\\main_source\\ES\\instance.cpp",
               "RelativeToolTip": "instance.cpp",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB4AAAAYAAAA",
+              "ViewState": "AQIAAJMAAAAAAAAAAAAAAJ4AAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-02T02:55:33.121Z"
+              "WhenOpened": "2024-05-02T02:55:33.121Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -85,9 +88,10 @@
               "RelativeDocumentMoniker": "solver.h",
               "ToolTip": "C:\\Users\\ORLab\\main_source\\ES\\solver.h",
               "RelativeToolTip": "solver.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-02T04:21:57.988Z"
+              "WhenOpened": "2024-05-02T04:21:57.988Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -97,7 +101,7 @@
               "RelativeDocumentMoniker": "solver.cpp",
               "ToolTip": "C:\\Users\\ORLab\\main_source\\ES\\solver.cpp",
               "RelativeToolTip": "solver.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAJAAAA",
+              "ViewState": "AQIAAIoAAAAAAAAAAAAAAJ4AAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-02T04:29:56.504Z",
               "EditorCaption": ""
