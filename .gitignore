@@ -8,5 +8,5 @@
 ./ES
 /ES.sln
 /ES.vcxproj.user
-./ES/x64/Debug
-./x64/Debug
+/ES/x64/Debug
+/x64/Debug
