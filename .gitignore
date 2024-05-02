@@ -6,5 +6,5 @@
 /ES.vcxproj.filters
 /ES.sln
 /ES.vcxproj.user
-ES/
-x64/
+./ES/
+./x64/
