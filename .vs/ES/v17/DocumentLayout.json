@@ -43,8 +43,7 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-02T02:55:39.346Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "instance.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-02T07:22:55.117Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-02T07:22:55.117Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "instance.cpp",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAB4AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-02T02:55:33.121Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-02T02:55:33.121Z"
             },
             {
               "$type": "Document",
@@ -90,8 +87,7 @@
               "RelativeToolTip": "solver.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-02T04:21:57.988Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-02T04:21:57.988Z"
             },
             {
               "$type": "Document",
@@ -101,7 +97,7 @@
               "RelativeDocumentMoniker": "solver.cpp",
               "ToolTip": "C:\\Users\\ORLab\\main_source\\ES\\solver.cpp",
               "RelativeToolTip": "solver.cpp",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACIAAAAhAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-02T04:29:56.504Z",
               "EditorCaption": ""
