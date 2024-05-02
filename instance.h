@@ -1,5 +1,5 @@
 #pragma once
-#pragma once
+
 #ifndef ES_INSTANCE_H
 #define ES_INSTANCE_H
 #include <vector>
@@ -9,14 +9,16 @@
 #include <map>
 #include <unordered_map>
 #include <string>
-
+#include <set>
 
 class Instance {
 public:
-    std::string instanceName;
-    std::unordered_map<std::string, std::vector<std::string>> students;
-    std::unordered_map<std::string, std::string> enrollments;
-    std::unordered_map<std::string, std::vector<std::string>> exams;
+    //std::string instanceName;
+    std::vector<std::string> students;
+    std::vector<std::string> exams;
+    std::vector<int> time_period;
+    std::vector<std::vector<int>> enrolment;
+    std::multimap<std::string, std::string> enrollments;
 
     Instance(std::string instanceFile);
 

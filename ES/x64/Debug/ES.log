@@ -1,2 +1,5 @@
-﻿  instance.cpp
-  ES.vcxproj -> C:\Users\ORLab\source\repos\orlab\ES\x64\Debug\ES.exe
+﻿  solver.cpp
+C:\Users\ORLab\main_source\ES\solver.cpp(14,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ORLab\main_source\ES\solver.cpp(16,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ORLab\main_source\ES\solver.cpp(18,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  ES.vcxproj -> C:\Users\ORLab\main_source\ES\x64\Debug\ES.exe
