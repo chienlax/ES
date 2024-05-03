@@ -26,6 +26,7 @@ public:
     std::map<int, int> num_student_in_exam;
     std::vector<int> capacity;
     std::vector<std::vector<int>> enrolment;
+    std::map <std::string, std::set<std::string>> StudentInEachExam;
     std::multimap<std::string, std::string> enrollments;
 
     void run();

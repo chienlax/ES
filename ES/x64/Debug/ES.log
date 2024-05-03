@@ -1,17 +1,5 @@
 ﻿  instance.cpp
-C:\Users\ORLab\main_source\ES\instance.cpp(85,10): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\ORLab\main_source\ES\instance.cpp(86,10): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\ORLab\main_source\ES\instance.cpp(114,61): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-  solver.cpp
-C:\Users\ORLab\main_source\ES\solver.cpp(19,33): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\ORLab\main_source\ES\solver.cpp(19,21): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
-C:\Users\ORLab\main_source\ES\solver.cpp(20,32): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\ORLab\main_source\ES\solver.cpp(20,21): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
-C:\Users\ORLab\main_source\ES\solver.cpp(21,39): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\ORLab\main_source\ES\solver.cpp(21,21): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
-C:\Users\ORLab\main_source\ES\solver.cpp(22,33): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\ORLab\main_source\ES\solver.cpp(22,21): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
-C:\Users\ORLab\main_source\ES\solver.cpp(23,36): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\ORLab\main_source\ES\solver.cpp(23,21): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
-  Generating Code...
+C:\Users\ORLab\main_source\ES\instance.cpp(173,10): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ORLab\main_source\ES\instance.cpp(174,10): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ORLab\main_source\ES\instance.cpp(202,61): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
   ES.vcxproj -> C:\Users\ORLab\main_source\ES\x64\Debug\ES.exe

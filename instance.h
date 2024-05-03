@@ -25,7 +25,14 @@ public:
     std::map<int, int> num_student_in_exam;
     std::vector<std::vector<int>> enrolment;
     std::vector<int> capacity;
+    std::map <std::string, std::set<std::string>> StudentInEachExam;
     std::multimap<std::string, std::string> enrollments;
+
+    // mapping name of the exam:
+    std::map<std::string, std::string> mapping_exam_name;
+    std::map<int, std::string> mapping_day;
+    std::map<int, std::string> mapping_time_slot;
+    std::map<int, std::string> mapping_room;
 
     Instance(std::string instanceFile);
 

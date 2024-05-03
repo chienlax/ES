@@ -10,13 +10,14 @@ Solver::Solver(Instance* instance) : instance(instance) {
     rooms = instance->rooms;
     conflict = instance->conflict;
     num_student_in_exam = instance->num_student_in_exam;
+    StudentInEachExam = instance->StudentInEachExam;
     capacity = instance->capacity;
 }
 
 void Solver::run() {
     IloEnv env;
 
-        const int I = exams.size();
+        const int I = StudentInEachExam.size();
         const int J = days.size();
         const int K = slot_in_day.size();
         const int E = rooms.size();
@@ -139,7 +140,7 @@ void Solver::run() {
             }
         }
 
-        // (6): constrains the number of exams scheduled in two days for each student: 5
+        // (6): constrains the number of exams scheduled in two days for each student: 6
         for (int l = 0; l < L; l++) {
             for (int j = 0; j < J-1; j++) {
                 IloExpr expr6(env);
@@ -148,25 +149,25 @@ void Solver::run() {
                         expr6 += (Y[l][i][j][k] + Y[l][i][j + 1][k]);
                     }
                 }
-                model.add(expr6 <= 5);
+                model.add(expr6 <= 6);
             }
         }
 
         // (7): enforces the capacity limit of each exam venue
-        //for (int i = 0; i < I; i++) {
-        //    for (int e = 0; e < E; e++) {
-        //        IloExpr expr7(env);
-        //        for (int j = 0; j < J; j++) {
-        //            for (int k = 0; k < K; k++) {
-        //                expr7 += num_student_in_exam[i] * X[i][j][k][e];
-        //            }
-        //        }
-        //        model.add(expr7 <= capacity[e]);
-        //    }
-        //}
+        /*for (int i = 0; i < I; i++) {
+            for (int e = 0; e < E; e++) {
+                IloExpr expr7(env);
+                for (int j = 0; j < J; j++) {
+                    for (int k = 0; k < K; k++) {
+                        expr7 += num_student_in_exam[i] * X[i][j][k][e];
+                    }
+                }
+                model.add(expr7 <= capacity[e]);
+            }
+        }*/
 
         // (8): prevents scheduling multiple concurrent exams in the same venue
-        for (int j = 0; j < J; j++) {
+        /*for (int j = 0; j < J; j++) {
             for (int k = 0; k < K; k++) {
                 for (int e = 0; e < E; e++) {
                     IloExpr expr8(env);
@@ -174,6 +175,19 @@ void Solver::run() {
                         expr8 += X[i][j][k][e];
                     }
                     model.add(expr8 <= 1);
+                }
+            }
+        }*/
+
+        // (7) + (8): Schedule multiple exam in 1 day
+        for (int j = 0; j < J; j++) {
+            for (int k = 0; k < K; k++) {
+                for (int e = 0; e < E; e++) {
+                    IloExpr expr7(env);
+                    for (int i = 0; i < I; i++) {
+                        expr7 += num_student_in_exam[i] * X[i][j][k][e];
+                    }
+                    model.add(expr7 <= capacity[e]);
                 }
             }
         }
@@ -185,17 +199,24 @@ void Solver::run() {
         }
 
         double objValue = cplex.getObjValue();
-        //env.end();
         std::cout << "Objective Value: " << objValue << std::endl;
 
         cout << "Solution status: " << cplex.getStatus() << endl;
 
-        /*for (int i = 0; i < n; ++i) {
-            for (int k = 0; k < p; ++k) {
-                cout << "X[" << i << "][" << k << "] = " << cplex.getValue(X[i][k]) << endl;
+        for (int i = 0; i < I; i++) {
+            for (int j = 0; j < J; j++) {
+                for (int k = 0; k < K; k++) {
+                    for (int e = 0; e < E; e++) {
+                        if (cplex.getValue(X[i][j][k][e])) {
+                            std::cout << "Exam " << i << " is schedule at day " << j << " in time slot " << k <<
+                                " in room " << e << std::endl;
+                        }
+                    }
+                }
             }
-        }*/
+        }
 }
+
 //Constraint 0: The last period have to be min
         /*for (int i = 0; i < n; i++) {
             IloExpr expr0(env);

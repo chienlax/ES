@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ORLab\\main_source\\ES\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6FB9D140-9918-4183-8C16-DD82FDADF543}|ES.vcxproj|C:\\Users\\ORLab\\main_source\\ES\\solver.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6FB9D140-9918-4183-8C16-DD82FDADF543}|ES.vcxproj|solutionrelative:solver.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6FB9D140-9918-4183-8C16-DD82FDADF543}|ES.vcxproj|C:\\Users\\ORLab\\main_source\\ES\\instance.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6FB9D140-9918-4183-8C16-DD82FDADF543}|ES.vcxproj|solutionrelative:instance.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6FB9D140-9918-4183-8C16-DD82FDADF543}|ES.vcxproj|C:\\Users\\ORLab\\main_source\\ES\\instance.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6FB9D140-9918-4183-8C16-DD82FDADF543}|ES.vcxproj|solutionrelative:instance.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FB9D140-9918-4183-8C16-DD82FDADF543}|ES.vcxproj|C:\\Users\\ORLab\\main_source\\ES\\solver.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6FB9D140-9918-4183-8C16-DD82FDADF543}|ES.vcxproj|solutionrelative:solver.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6FB9D140-9918-4183-8C16-DD82FDADF543}|ES.vcxproj|C:\\Users\\ORLab\\main_source\\ES\\solver.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\Users\\ORLab\\main_source\\ES\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-02T02:55:39.346Z",
               "IsPinned": true,
@@ -56,26 +56,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "instance.h",
               "DocumentMoniker": "C:\\Users\\ORLab\\main_source\\ES\\instance.h",
               "RelativeDocumentMoniker": "instance.h",
               "ToolTip": "C:\\Users\\ORLab\\main_source\\ES\\instance.h",
               "RelativeToolTip": "instance.h",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAABkAAAAkAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACIAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-05-02T07:22:55.117Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "instance.cpp",
               "DocumentMoniker": "C:\\Users\\ORLab\\main_source\\ES\\instance.cpp",
               "RelativeDocumentMoniker": "instance.cpp",
               "ToolTip": "C:\\Users\\ORLab\\main_source\\ES\\instance.cpp",
               "RelativeToolTip": "instance.cpp",
-              "ViewState": "AQIAAJMAAAAAAAAAAAAAAJ4AAAACAAAA",
+              "ViewState": "AQIAANIAAAAAAAAAAAAAAOEAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-02T02:55:33.121Z",
               "EditorCaption": ""
@@ -88,20 +88,20 @@
               "RelativeDocumentMoniker": "solver.h",
               "ToolTip": "C:\\Users\\ORLab\\main_source\\ES\\solver.h",
               "RelativeToolTip": "solver.h",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAANAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABwAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-05-02T04:21:57.988Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "solver.cpp",
               "DocumentMoniker": "C:\\Users\\ORLab\\main_source\\ES\\solver.cpp",
               "RelativeDocumentMoniker": "solver.cpp",
               "ToolTip": "C:\\Users\\ORLab\\main_source\\ES\\solver.cpp",
               "RelativeToolTip": "solver.cpp",
-              "ViewState": "AQIAAIoAAAAAAAAAAAAAAJ4AAAAvAAAA",
+              "ViewState": "AQIAAKMAAAAAAAAAAAAcwL4AAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-02T04:29:56.504Z",
               "EditorCaption": ""
